@@ -110,8 +110,29 @@ type(None)    # return 'NoneType'
 # Execution control statements
 # If
 # For
-# Functions
-# Object Oriented programing(OOP)
+# 7)Functions
+## lambda
+- Lambda operations all you to creats small anonymous function which computes something
+```
+# operations on list
+a = [5,2,3,1,7]
+b = [1,5,4,6,8]
+
+#Create a lambda function to add 2 numbers
+add_fct = lambda x.y:x+y
+
+add_fct(a,b)
+Out[12]: [5,2,3,1,7,1,5,4,6,8]
+
+#Add all elemnets of lists a end b
+print (list(map(add)fct, a,b))
+[6,7,7,7,1,5]
+
+```
+  
+
+
+# 8)Object Oriented programing(OOP)
 # Read text(excel) File
 # Numpy
 # Pandas
