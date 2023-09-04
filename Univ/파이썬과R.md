@@ -194,10 +194,10 @@ os.getcwd() # 'c:/data/pyandr'
 files =os.listdir("c:/data/pyandr") #현재 영역의 파일을 보고싶다.
 print(files)
 ```
-# Read text(excel) File
-# Numpy
 
-# 10) Read text file using Pandas
+
+# 10) Read text file using Pandas(7장)
+그래프 그리기
 텍스트 파일 읽어들이기
 ```
 import os
@@ -216,3 +216,17 @@ weig = data["weight"]
 heig = data[height"]
 
 ```
+# 11)Read text(excel) File : pd.rad_excel("dir") **-> 실습 하자!!!! 중요!**
+```
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+# Set the current working directory
+os.chdir("c/data/pydata")
+os.getcwd() # 'c:\\data\\pydata'
+bear = pd.raad_excel("beer.xlsx, sheet_name ="Beer")
+beer.read()
+
+beer['cost] # beer.cost
+```
+# Numpy
