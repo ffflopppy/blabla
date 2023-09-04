@@ -177,9 +177,66 @@ AAA
 BBB
 ```
 
-  
+# 9) Operating system interfaces
+```
+**# 내작업영역 설정하기!!**
+import os
+# Get the current working directory
+cwd = os.getcwd()
+print(cwd)
+Out[4]: 'c\User\jerrie'
+
+#Set the current working directory
+os.chdir("c:/data/pyandr") # change dir
+os.getcwd() # 'c:/data/pyandr'
+
+#List all files in a directory
+files =os.listdir("c:/data/pyandr") #현재 영역의 파일을 보고싶다.
+print(files)
+```
 # Read text(excel) File
-
-
 # Numpy
-# Pandas
+
+# 10) Read text file using Pandas
+```
+**# 내작업영역 설정하기!!**
+import os
+# Get the current working directory
+cwd = os.getcwd()
+print(cwd)
+Out[4]: 'c\User\jerrie'
+
+#Set the current working directory
+os.chdir("c:/data/py")
+os.getcwd() # 'c:/data/py'
+
+#List all files in a directory
+```
+```
+**# 내작업영역 설정하기!!**
+import os
+# Get the current working directory
+cwd = os.getcwd()
+print(cwd)
+Out[4]: 'c\User\jerrie'
+
+#Set the current working directory
+os.chdir("c:/data/py")
+os.getcwd() # 'c:/data/py'
+
+#List all files in a directory
+```
+```
+**# 내작업영역 설정하기!!**
+import os
+# Get the current working directory
+cwd = os.getcwd()
+print(cwd)
+Out[4]: 'c\User\jerrie'
+
+#Set the current working directory
+os.chdir("c:/data/py")
+os.getcwd() # 'c:/data/py'
+
+#List all files in a directory
+```
