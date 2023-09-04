@@ -216,7 +216,7 @@ weig = data["weight"]
 heig = data[height"]
 
 ```
-# 11)Read text(excel) File : pd.rad_excel("dir") **-> 실습 하자!!!! 중요!**
+# 11)Read text(excel) File : pd.rad_excel("dir") **( 실습 하자!!!! 중요!)**
 ```
 import os
 import pandas as pd
@@ -229,4 +229,72 @@ beer.read()
 
 beer['cost] # beer.cost
 ```
+
+## 참고 1: Read text file - 1차원 data
+```
+import os
+import pandas as pd
+import matplotlib.pypliot as plt
+# Set the current working directory
+os.chdir("c:/data/pydata")
+os.getcwd() # 'c\\data/pydata'
+imsi = ps.read_csv(imsi.text',sep =" ", header =None)
+type(imsi)
+Out[14]: pandas.core.frame.DataFrame
+imsi.iloc[0]
+Out[15]
+...
+```
+## **참고 2: Missing values in Pytone :NaN(결측치 처리: 중요!!)**
+
+```
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+bmi3 = pd.raad_csv("bmi3.txt', sep= " ")
+bmi3.head()
+ 
+```
+
+## **참고 3: Missing values in Pytone :999(결측치 처리: 중요!!)**
+NaN 보다 999 를 더 많이 사용함
+```
+import os
+import pandas as pd
+import numpy as np
+bmi4 = pd.read_csv(bmi4.txt, sep=" ")
+bmi4.head()
+```
+<img width="552" alt="image" src="https://github.com/ffflopppy/blabla/assets/58408873/814ed8fd-42a3-439a-aed4-64f09c056ace">
+
+```
+bmi4.weight = bmi4.weight.replace(999, np.NaN) # bmi4['wegith']
+
+#Remove rows with Missing values -> missing value row지우기
+bmi4.dropna(inplace = True) 
+```
+https://machinelearningmastery.com/handle-missing-data-python/
+
+
 # Numpy
+NumPy is one of the most fundamental package for scientific computing with Python. Numpy inclues the supprot for handling large, multi-dimensional arrays and matrices, along wiht a lage collection of high-level mathematical functions to operate on thes arrays.
+
+
+```
+import numpy as np
+
+#Create a 1d numpy array
+data1 = [6,7,5,8,0,1]
+
+arr1 = np.array(data1)
+print(arr1)
+
+```
+
+Python의 기본 자료구조
+list, tuple, dictionary, set
+
+:the Python language was not initally designed for numerical computing
+: 1995 matrix-sig group
+: 2006 numpy
+
