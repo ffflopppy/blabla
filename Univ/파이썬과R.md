@@ -129,10 +129,28 @@ print (list(map(add)fct, a,b))
 [6,7,7,7,1,5]
 
 ```
+# 8)Object Oriented programing(OOP) 
+- **Class** : 함수문의 모음들(중요)
+```
+import math
+# Inheritance + Encapsulation
+class Square():
+  def _init_(self, width):
+    self.width = width
+  def area(self):
+    return self.width ** 2
+
+class Disk():
+  def __init_(self,radius):
+    self.radius = radius
+
+  def area(self):
+    return math.pi * self radius ** 2
+
+shapes =[Square(2), Dis(3)]
+```
+
   
-
-
-# 8)Object Oriented programing(OOP)
 # Read text(excel) File
 # Numpy
 # Pandas
