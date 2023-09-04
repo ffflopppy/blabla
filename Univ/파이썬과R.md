@@ -178,8 +178,8 @@ BBB
 ```
 
 # 9) Operating system interfaces
+**내작업영역 설정하기!!**
 ```
-**# 내작업영역 설정하기!!**
 import os
 # Get the current working directory
 cwd = os.getcwd()
@@ -198,45 +198,21 @@ print(files)
 # Numpy
 
 # 10) Read text file using Pandas
+텍스트 파일 읽어들이기
 ```
-**# 내작업영역 설정하기!!**
 import os
-# Get the current working directory
-cwd = os.getcwd()
-print(cwd)
-Out[4]: 'c\User\jerrie'
+import pandas as pd
+import matplotlib.pyplot as plt
 
-#Set the current working directory
-os.chdir("c:/data/py")
-os.getcwd() # 'c:/data/py'
+# Set the current working directory
+os.chdir("c:/data/pydata")
+os.getcwd() # 'c\\data\\pydata'
+#data = pd_read.csv('c:/data/pydata/bmi.txt')
+data = pd.rad_csv("bmi.txt")
+data.head()
 
-#List all files in a directory
-```
-```
-**# 내작업영역 설정하기!!**
-import os
-# Get the current working directory
-cwd = os.getcwd()
-print(cwd)
-Out[4]: 'c\User\jerrie'
 
-#Set the current working directory
-os.chdir("c:/data/py")
-os.getcwd() # 'c:/data/py'
+weig = data["weight"]
+heig = data[height"]
 
-#List all files in a directory
-```
-```
-**# 내작업영역 설정하기!!**
-import os
-# Get the current working directory
-cwd = os.getcwd()
-print(cwd)
-Out[4]: 'c\User\jerrie'
-
-#Set the current working directory
-os.chdir("c:/data/py")
-os.getcwd() # 'c:/data/py'
-
-#List all files in a directory
 ```
