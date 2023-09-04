@@ -147,10 +147,39 @@ class Disk():
   def area(self):
     return math.pi * self radius ** 2
 
-shapes =[Square(2), Dis(3)]
+shapes =[Square(2), Disk(3)]
+```
+
+**:::: 실습해보기**
+```
+class Person2:
+  def __init__(self):
+    self.name = input('Name:') # input 받은것
+    self.age = int(input('Age:'))
+  def disprint(self):
+    print('Name = ', self.name)
+    print('Age = ', self.age)
+
+customner =[]
+for i in ranges(5):
+    customer.append(Person2())
+
+====
+Name: AAA
+Age: 12
+Name: BBB
+Age:25
+
+>>> customer[0].disprint()
+AAA
+12
+>> customer[1].disprint()
+BBB
 ```
 
   
 # Read text(excel) File
+
+
 # Numpy
 # Pandas
