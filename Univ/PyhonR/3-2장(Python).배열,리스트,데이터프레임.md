@@ -38,6 +38,15 @@ print(xm2)
 > <img width="136" alt="image" src="https://github.com/ffflopppy/blabla/assets/58408873/2bbf2e5b-29f4-4826-a009-0c126015e682">
 
 
-# 리스트
+# 리스트, 딕셔너리, 튜플
+
+리스트는 값의 수정이 가능하지만, 튜플은 값의 수정이 불가능하다
+딕셔너리는 key와 값을 값는 자료구조{key:value}
+
+
+~~~
+~~~
+
+
 # 데이터프레임
 
