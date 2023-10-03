@@ -47,6 +47,14 @@ print(xm2)
 a = [1,2,3]
 print(a[1]) ##2
 ~~~
+
+> 파이썬에서 a 리스트 값을 b에 대입하여 복사한 경우 b의 값을 별도로 저장하지 않고 a 값의 주소값을 저장한다(call by reference).
+> 
+> 값을 카피하고싶은 경우 deepcopy(a) 값을 저장할수 있다(call by value).
+> ~~~
+> import copy
+> b = copy.deepcopy(a)
+> ~~~
 ### 2. tuple
 ~~~
 tpl = ('AA','BB','CC')
@@ -59,6 +67,11 @@ country_code ={'korea':82, 'us':1, 'china':86}
 print(country_code['korea'] ## 82
 ~~~
 
+
+~~~
+xv = np.arange(1,10)
+xv[1:4] ## array([2,3,4])
+~~~
 
 # 데이터프레임
 
